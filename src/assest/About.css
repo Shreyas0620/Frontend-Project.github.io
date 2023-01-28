@@ -1,0 +1,27 @@
+.ab{
+    height: 90vh;
+    width: 100%;
+     background-size: 100% 100%;
+     /* background-image: url(/src/assest/About1.jpg); */
+}
+.stories:hover{
+    position: relative;
+    
+       border-bottom: 10px solid rgb(243, 233, 54);
+       transition: 0.25s ease-out;
+ 
+}
+
+
+/* #root > div:nth-child(4) > div > hr{
+
+
+    color: transparent;
+    
+}
+#root > div:nth-child(4) > div > hr:hover{
+
+
+    color: black !important;
+    
+} */

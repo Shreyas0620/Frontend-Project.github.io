@@ -1,0 +1,153 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+
+
+
+
+
+.navbar-toggler{
+background-color: whitesmoke !important;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+ /* product css starts  */
+
+  .footer{
+    background-color: white !important;
+    margin-top: -3rem;
+    height: 13vh;
+  }
+ 
+  /* .btn{
+    height: -35% !important;
+  } */
+  @media (min-width:100px) and (max-width:480px){
+    .footer{
+      height: 25vh;
+    }
+    
+  }
+  @media (min-width:100px) and (max-width:480px){
+    .btn{
+      margin-left: 5rem;
+      margin-top: 1rem;
+    }
+    
+  }
+
+  /* Headphone Component bg Image  */
+  .bg-offer{
+    background: url(/src/assest/wireless.jpg);
+    object-fit: cover;
+  }
+
+  /* .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  } */
+
+   
+  /* HeadPhone details Media Querry here  */
+
+  @media (min-width:100px) and (max-width:480px){
+
+    .fly{
+      margin-left: -15rem;
+    }
+    .fly1{
+      height: 10rem;
+     
+    }
+  }
+
+/* Speaker Component Image  */
+  .bg-speak{
+    background: url(/src/assest/Speaker.jpg);
+  }
+
+
+  /* Home Cards Hover Effect  */
+  .card1:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+    transition: 0.45s ;
+  }
+  .card2:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+    transition: 0.45s ;
+  }
+  .card3:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+    transition: 0.45s ;
+  }
+  .card4:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+    transition: 0.45s ;
+  }
+  .card5:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+    transition: 0.45s ;
+  }
+
+  @media (min-width:100px) and (max-width:480px) {
+    .L{
+      margin-left: 0rem;
+    }
+    
+  }
+  .logo{
+    transition: transform .7s ease-in-out;
+  }
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+  .ul:hover{
+    transition: 0.10s;
+    border-bottom: 2px solid rgb(130, 156, 178) ;
+  }
+  
+ .headphone-cards:hover{
+  transition: 0.95s;
+  transform: rotateY(150deg);
+}
+ 
+  .new-arrival{
+    background: url(/src/assest/newArrivall.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  
